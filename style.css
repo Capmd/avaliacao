@@ -37,4 +37,11 @@ main{
         line-height: 20px;
         padding: 9px 15px;
     }
+
+    #lista {
+        font-weight: bold;
+        list-style-type: none;
+        text-align: center;
+        width: 90%;
+    }
     
