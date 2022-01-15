@@ -17,7 +17,7 @@ pegarPersonagem = () => {
             "Content-type": 'application/json'
         }
     }).then((response) => response.json()).then((data) => {
-        imagem.scr = data.image;
+        imagem.src = data.image;
         imagem.alt = data.name;
         nomeDoPersonagem.innerHTML = data.name
         especie.innerHTML = data.especies
