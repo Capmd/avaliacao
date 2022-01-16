@@ -21,13 +21,18 @@ body {
 
     main > div section img {
         height: 400px;
-        margin: 100pc 8px 15px;
+        margin: 100px 8px 15px;
         width: 300px;
     }
-
+    
+    #divbotao {
+        height: 20px;
+        padding: 0px 0px 50px;
+    }
+    
     #botao {
         background-color: #2F4F4F;
-        border: ridge;
+        border: flex;
         border-radius: 15px;
         color: white;        
         font-family: EuclidBold;
@@ -38,10 +43,11 @@ body {
         padding: 5px 10px;
     }
 
-    #lista {
+    .lista {
         font-weight: bold;
         list-style-type: none;
+        padding: 0px;
         text-align: center;
-        width: 90%;
+        width: 100%;
+        
     }
-    
