@@ -11,7 +11,7 @@ body {
     width: 100%;
     }
 
-main{
+    main > div {
     align-items: center;
     display: flex;
     height: 100vh;
@@ -19,13 +19,13 @@ main{
     position: relative;
     } 
 
-    main > section img {
+    main > div section img {
         height: 400px;
-        margin: 8px 15px;
+        margin: 100pc 8px 15px;
         width: 300px;
     }
 
-    #botao2 {
+    #botao {
         background-color: #2F4F4F;
         border: ridge;
         border-radius: 15px;
